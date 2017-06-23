@@ -5,4 +5,4 @@ These packages were built by the Electrical Engineering Department at California
 # Contributors
 - Jim Heald <jrheald@calpoly.edu>
 - Nathan Hatch <nghatch@calpoly.edu>
-- Cristiana Lingad <clingad@calpoly.ed>
+- Cristiana Lingad <clingad@calpoly.edu>
