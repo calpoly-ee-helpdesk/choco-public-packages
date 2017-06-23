@@ -1,0 +1,13 @@
+# Ignore all
+*
+
+# Unignore all directories
+!*/
+
+# Unignore relevant files
+!*.nuspec
+!*.ps1
+!.gitignore
+
+# Application-specific files
+!ltspice/tools/*
