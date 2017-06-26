@@ -5,7 +5,7 @@
     <id>codecomposerstudio</id>
 	<!-- Last two digits are package release -->
     <version>7.2.0.0001300</version>
-    <packageSourceUrl>https://github.com/calpoly-ee-helpdesk/choco-public-packages/tree/master/ccs7</packageSourceUrl>
+    <packageSourceUrl>https://github.com/calpoly-ee-helpdesk/choco-public-packages/tree/master/codecomposerstudio</packageSourceUrl>
     <owners>calpoly-ee-helpdesk</owners>
     <!-- ============================== -->
 
