@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>codecomposerstudio</id>
+	<!-- Last two digits are package release -->
+    <version>7.2.0.0001300</version>
+    <packageSourceUrl>https://github.com/calpoly-ee-helpdesk/choco-public-packages/tree/master/ccs7</packageSourceUrl>
+    <owners>calpoly-ee-helpdesk</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Code Composer Studio 7</title>
+    <authors>TI</authors>
+    <projectUrl>http://www.ti.com/tool/ccstudio</projectUrl>
+    <iconUrl>https://dev.ti.com/images/ccscube256.png</iconUrl>
+    <copyright>2017 Texas Instruments</copyright>
+    <licenseUrl>http://software-dl.ti.com/ccs/esd/licenseadmin/ccslicense.zip</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>http://processors.wiki.ti.com/index.php/Category:Code_Composer_Studio_v7</docsUrl>
+    <tags>ccs7 embedded processor ide eclipse microcontroller</tags>
+    <summary>IDE for TI microcontrollers and microprocessors</summary>
+    <description>Code Composer Studio is an integrated development environment (IDE) that supports TI's Microcontroller and Embedded Processors portfolio.</description>
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

@@ -1,12 +1,9 @@
-﻿# Release credits:
-# 	- Version 7.1.0.00: Jim Heald <jrheald@calpoly.edu>
+﻿$ErrorActionPreference = 'Stop';
 
-$ErrorActionPreference = 'Stop';
-
-$packageName= 'ccs7'
+$packageName= 'codecomposerstudio'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url64 = 'http://software-dl.ti.com/ccs/esd/CCSv7/CCS_7_1_0/exports/ccs_setup_7.1.0.00016.exe'
+$url64 = 'https://downloads.ti.com/ccs/esd/CCSv7/CCS_7_2_0/exports/ccs_setup_7.2.0.00013.exe'
 $installOptions = Join-Path $toolsDir 'install_options.txt'
 
 $packageArgs = @{
@@ -17,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'Code Composer Studio*' 
 
-  checksum      = 'F9B8E7AD9BB0F642BCA2548AEFF6B63E226A0E6E456DB6A9999837F52A04A485'
+  checksum      = 'E447A1D11F4524039686DE4639551790A0087B01BCC3011F323943EA92FC0826'
   checksumType  = 'sha256' 
 
   validExitCodes= @(0, 3010, 1641)

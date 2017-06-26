@@ -12,3 +12,4 @@
 
 # Application-specific files
 !ltspice/tools/*
+!codecomposerstudio/tools/install_options.txt

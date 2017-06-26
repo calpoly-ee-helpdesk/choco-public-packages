@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 
-$packageName = 'ccs7'
+$packageName = 'codecomposerstudio'
 $softwareName = 'Code Composer Studio*' 
 $installerType = 'EXE' 
 
